@@ -1,0 +1,44 @@
+# Sistema Kanban para Indústria Alimentícia
+
+## Tecnologias utilizadas
+- HTML5
+- CSS3
+- JavaScript (Vanilla)
+- LocalStorage (simulando banco de dados)
+- MySQL (estrutura real do banco)
+
+## Estrutura do projeto
+```
+/docs
+  ├─ der.png
+  ├─ casos_uso.png
+  ├─ banco.sql
+/web
+  ├─ index.html        ← Tela de gerenciamento
+  ├─ cadastro_usuario.html
+  ├─ cadastro_tarefa.html
+  ├─ style.css
+  ├─ script.js
+README.md              ← Tecnologias + passo a passo
+```
+
+## Como executar o projeto
+1. Clonar o repositório.
+2. Abrir os arquivos `.html` diretamente no navegador (funciona offline).
+3. O `LocalStorage` salvará as tarefas e usuários no navegador.
+
+### Cadastro de Usuário
+- Acesse `cadastro_usuario.html`
+- Preencha o formulário e clique em "Cadastrar"
+
+### Cadastro de Tarefa
+- Acesse `cadastro_tarefa.html`
+- Selecione o usuário, preencha os dados e clique em "Cadastrar"
+
+### Visualização e gerenciamento
+- Acesse `index.html`
+- As tarefas cadastradas aparecerão nas colunas "A Fazer", "Fazendo" e "Pronto"
+
+## Observações
+- Para limpar o banco simulado, basta limpar o `LocalStorage` do navegador.
+- As imagens `der.png` e `casos_uso.png` ilustram o modelo de dados e os casos de uso.
